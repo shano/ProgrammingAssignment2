@@ -39,9 +39,3 @@ cacheSolve <- function(x, ...) {
         x$setinverse(inverse)
         inverse
 }
-mat = matrix(c(4,3,3,2), 2)
-print(mat)
-cacheMat = makeCacheMatrix(mat)
-inverseMat = cacheSolve(cacheMat)
-inverseMat = cacheSolve(cacheMat)
-print(inverseMat)
